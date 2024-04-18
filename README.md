@@ -16,7 +16,7 @@ df_stats.sample(10)
 model.compile(optimizer=optimizer, loss=focal_loss(gamma=2.0, alpha=0.25), metrics=[AUC()])
 ```
 
-*Investment strategy*: we leverage the use of deep learning to prompt an injury watch list and make financial profit off betting against injury-prone players with critical influence.
+*Investment strategy*: we leveraged the use of deep learning to prompt an injury watch list and make financial profit off betting against injury-prone players with critical influence.
 
 ```python
 injury_watch_sorted.head(5)
